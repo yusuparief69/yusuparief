@@ -51,17 +51,18 @@
                             </thead>
                             <?php
                             include "../../config/koneksi.php";
-
                             $no = 1;
                             $data = mysqli_query($koneksi, "SELECT * FROM spp");
                             while ($row = mysqli_fetch_assoc($data)) {
                             ?>
+                            
                                 <tbody>
+                               
                                     <tr>
                                         <td><?= $no++; ?></td>
                                         <td><?= $row['id_spp']; ?></td>
                                         <td><?= $row['tahun']; ?></td>
-                                        <td><?= $row['nominal']; ?></td>
+                                        <td>Rp. <?= $row['nominal']; ?></td>
                                    
 
                                         <td>

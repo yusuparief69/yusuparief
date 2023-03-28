@@ -50,7 +50,7 @@ session_start();
                     <span class="glyphicon glyphicon-user form-control-feedback"></span>
                 </div>
                 <div class="form-group has-feedback">
-                    <input type="text" class="form-control" name="uname" placeholder="Nama Pengguna" id="uname">
+                    <input type="text" class="form-control" name="uname" placeholder="Nis/Username" id="uname">
                     <span class="glyphicon glyphicon-user form-control-feedback"></span>
                 </div>
                 <div class="form-group has-feedback">
