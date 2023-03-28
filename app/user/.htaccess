@@ -1,0 +1,34 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^dashboard$ home.php [L]
+RewriteRule ^pengembalian-buku$ home.php?module=pages/views/v_pengembalian [L]
+RewriteRule ^pembayaran$ home.php?module=pages/views/v_peminjaman [L]
+RewriteRule ^profil-saya$ home.php?module=pages/views/v_profil [L]
+RewriteRule ^pesan$ home.php?module=pages/views/v_pesan [L]
+RewriteRule ^petugas$ home.php?module=pages/views/v_petugas [L]
+RewriteRule ^kelas$ home.php?module=pages/views/v_kelas [L]
+RewriteRule ^spp$ home.php?module=pages/views/v_spp [L]
+RewriteRule ^laporan$ home.php?module=pages/views/v_laporan [L]
+RewriteRule ^histori$ home.php?module=pages/views/v_history [L]
+
+
+
+RewriteRule ^keluar$ logout.php [L]
+RewriteRule ^hapus$ hapus.php [L]
+RewriteRule ^input$ input.php [L]
+RewriteRule ^inputpetugas$ inputpetugas.php [L]
+RewriteRule ^inputpembayaran$ inputpembayaran.php [L]
+RewriteRule ^edit$ edit.php [L]
+RewriteRule ^editpembayaran$ editpembayaran.php [L]
+RewriteRule ^hapuspembayaran$ hapuspembayaran.php [L]
+RewriteRule ^hapusspp$ hapusspp.php [L]
+RewriteRule ^hapuspetugas$ hapuspetugas.php [L]
+RewriteRule ^hapuskelas$ hapuskelas.php [L]
+RewriteRule ^inputkelas$ inputkelas.php [L]
+RewriteRule ^editkelas$ editkelas.php [L]
+RewriteRule ^inputspp$ inputspp.php [L]
+RewriteRule ^editspp$ editspp.php [L]
+RewriteRule ^history$ history.php [L]
+RewriteRule ^editpetugas$ editpetugas.php [L]
+</IfModule>
